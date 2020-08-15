@@ -182,6 +182,7 @@ header {
       rgba(47, 48, 58, 0.8)
     ),
     url('../images/baner.jpg');
+  background-color: black;
   max-width: 1600px;
   height: 600px;
   padding-top: 200px;
