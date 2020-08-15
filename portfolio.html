@@ -22,26 +22,33 @@
                     <span class="color">Web</span> Studio
                 </a>
                 <ul class="site-nav list flex">
-                    <li class="item"><a href="./index.html" class="link">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
+                    <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
                     <li class="item"><a href="#address" class="link">Контакты</a></li>
                 </ul>
             </nav>
 
             <ul class="contacts list flex">
                 <li class="item">
-                    <a href="#" class="contacts-imail link">
-                        <img src="./images/imail.svg" alt="значек имэйла">info@devstudio.com</a>
+                    <a href="#" class="contacts-imail link flex">
+                        <svg>
+                            <use href="./images/svg/sprite.svg#icon-imail"></use>
+                        </svg>
+                        <p>info@devstudio.com</p>
+                    </a>
                 </li>
                 <li class="item">
-                    <a href="tel:+380961111111" class="contacts-phone link">
-                        <img src="./images/phone.svg" alt="значек телефона">+38 096 111
-                        11
-                        11</a>
+                    <a href="tel:+380961111111" class="contacts-phone link flex">
+                        <svg>
+                            <use href="./images/svg/sprite.svg#icon-phone"></use>
+                        </svg>
+                        <p>+38 096 111 11 11</p>
+                    </a>
                 </li>
             </ul>
         </div>
     </header>
+
 
 
     <main>
@@ -220,44 +227,63 @@
     </main>
 
     <footer>
-        <div class="container">
-            <div class="first-contaner">
+        <div class="container flex">
+            <div class="first-contaner item">
                 <a href="./index.html" class="link logo-footer" aria-label="логотип" lang="en">
                     <span class="color">Web</span> Studio
                 </a>
-                <address id="address" class="adress-footer">
+                <address id="address" class="adress-footer flex">
                     <a href="https://goo.gl/maps/UruoTMuBv4FQU7uC8" target="_blank" class="adress-text link">г. Киев,
                         пр-т
-                        Леси Украинки, 26</a><br>
-                    <a href="#" class="adress-imail link">info@example.com</a><br>
+                        Леси Украинки, 26</a>
+                    <a href="#" class="adress-imail link">info@example.com</a>
                     <a href="tel:+380961111111" class="adress-phone link">+38 099 111 11 11</a>
-                    
                 </address>
             </div>
 
-            <!--             
-                <section class="connection">
-                    <h2 hidden >присоеденяйтесь</h2>
-                    <b class="connection-title">присоединяйтесь</b>
-                    <ul class="list">
-                        <li>
-                            <a href="#" target="_blank" aria-label="сылка на instagram"></a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" aria-label="сылка на twitter"></a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" aria-label="сылка на facebook"></a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank" aria-label="сылка на linkedin"></a>
-                        </li>
-                    </ul>
-                </section>
-    
+
+            <section class="connection item">
+                <h2 hidden>присоеденяйтесь</h2>
+                <b class="connection-title">присоединяйтесь</b>
+                <ul class="list flex">
+                    <li class="team-footer-item">
+                        <a class="link flex social-link" href="#" target="_blank" aria-label="сылка на instagram">
+                            <svg class="social-link-svg">
+                                <use href="./images/svg/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-footer-item">
+                        <a class="link flex social-link" href="#" target="_blank" aria-label="сылка на twitter">
+                            <svg class="social-link-svg">
+                                <use href="./images/svg/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-footer-item">
+                        <a class="link flex social-link" href="#" target="_blank" aria-label="сылка на facebook">
+                            <svg class="social-link-svg">
+                                <use href="./images/svg/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="team-footer-item">
+                        <a class="link flex social-link" href="#" target="_blank" aria-label="сылка на linkedin">
+                            <svg class="social-link-svg">
+                                <use href="./images/svg/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+            <div class="subscribe flex item">
                 <div>
-                    <button type="button" class="button">Подписаться</button>
-                </div>-->
+                    <b class="connection-title">подпишитесь на рассылку</b>
+                    <input type="text">
+                </div>
+                <button type="button" class="button">Подписаться</button>
+            </div>
         </div>
     </footer>
 </body>
