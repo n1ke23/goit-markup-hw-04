@@ -112,7 +112,6 @@ header {
 .contacts {
   align-items: center;
   margin-left: auto;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -142,7 +141,6 @@ header {
 .contacts-phone svg {
   margin-right: 10px;
   fill: currentColor;
-  /* vertical-align: middle; */
 }
 
 .contacts-imail,
@@ -201,7 +199,6 @@ header {
   border: 1px solid transparent;
   margin-left: auto;
   margin-right: auto;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -217,7 +214,6 @@ header {
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -296,7 +292,6 @@ header {
   margin: 0;
   margin-bottom: 10px;
   padding-top: 30px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -308,7 +303,6 @@ header {
 
 .section-text {
   margin: 0;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
