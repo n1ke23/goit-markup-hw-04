@@ -205,6 +205,8 @@ header {
   text-align: center;
   color: var(--interactive-text-color);
   background-color: var(--active-text-color);
+
+  cursor: pointer;
 }
 
 .radio-button {
@@ -223,6 +225,8 @@ header {
 
   color: var(--heading-text-color);
   background: var(--bg);
+
+  cursor: pointer;
 }
 .radio-button:hover,
 .radio-button:focus {
