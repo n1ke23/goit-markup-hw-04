@@ -590,13 +590,20 @@ footer .item + .item {
 }
 
 .subscribe .button {
-  display: flex;
-  justify-content: space-around;
+  display: inline-flex;
   align-items: center;
   width: 200px;
   height: 50px;
   margin: 0;
   padding: 0;
+}
+
+.subscribe .button::after {
+  background-image: url(../images/svg/sprite.svg#icon-fly);
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-size: contain;
 }
 
 .subscribe p {
@@ -606,11 +613,6 @@ footer .item + .item {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-}
-
-.subscribe svg {
-  width: 24px;
-  height: 24px;
 }
 
 /* портфолио */
