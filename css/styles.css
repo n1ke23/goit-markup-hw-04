@@ -589,6 +589,10 @@ footer .item + .item {
   width: calc((100% - 30px) / 2);
 }
 
+.subscribe div {
+  margin-top: 20px;
+}
+
 .subscribe .button {
   display: inline-flex;
   align-items: center;
